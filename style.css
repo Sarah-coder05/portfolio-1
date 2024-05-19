@@ -1,0 +1,473 @@
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+html, body {
+  font-family: inter;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  max-width: 1600px;
+  margin: auto;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Poppins", sans-serif;
+}
+
+img {
+  display: block;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+  margin: 0;
+}
+
+#main {
+    padding: 2em 1em;
+}
+
+.nav_bio {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+
+.product-designer {
+    display: flex;
+    align-items: center;
+    gap: 10px
+
+}
+
+.product-image {
+    width: 45px;
+    height: 45px;
+    padding-top: 5px;
+}
+
+.designer {
+   color: #98a2b3;
+   font-size: 13px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding-bottom: 1em;
+}
+
+
+.header-list {
+    display: none;
+}
+
+.menu-icon {
+    width: 40px;
+    height: 40px;
+}
+.product-head{
+    font-size: 1.8em;
+    width: 90%;
+    line-height: 1.5em;
+}
+
+p{
+    font-size: 15px;
+    line-height: 30px;
+    color: #344054;
+}
+
+.product_UK-img {
+    width: 95%;
+    height: 500px;
+    padding: 0;
+    overflow: hidden;
+}
+
+.design-image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;    
+}
+
+.header_hr {
+    margin-top: 0;
+}
+
+hr {
+    margin: 2em 0;
+}
+
+.work-image{
+    width: 100%;
+    height: 150%;
+}
+
+.product-title{
+    margin: 0px;
+    font-size: 20px;
+}
+
+.work{
+    padding-bottom: 40px;
+}
+
+.product-role{
+    margin: 3px 0px;
+    font-size: 13px;
+}
+
+.about-image{
+    width: 100%;
+    height: 120;
+}
+.services{
+    display: flex;
+    gap: 60px;
+}
+
+.service-list{
+    font-size: 13px;
+    margin: 12px;
+}
+
+.works{
+    padding: 3px 10px;
+    background-color: #fee4e2;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    width: 8%;
+    font-size: 13px;
+    border-radius: 40px;
+    width: 60px;
+    text-align: center;
+}
+
+.about{
+    padding: 4px 10px;
+    background-color: #eaecf5;
+    margin-top: 40px;
+    font-weight: 400;
+    width: 8%;
+    margin-bottom: 10px;
+    font-size: 13px;
+    border-radius: 40px;
+    width: 60px;
+    text-align: center;
+}
+
+.break{
+    word-break: break-word;
+}
+
+.service{
+    padding: 4px 11px;
+    background-color: #fef0c7;
+    font-weight: 400;
+    width: 9%;
+    margin-top: 20px;
+    font-size: 13px;
+    border-radius: 40px;
+    width: 70px;
+    text-align: center;
+}
+
+.experience{
+    padding: 4px 11px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    width: 13%;
+    font-size: 13px;
+    border-radius: 40px;
+    background-color: #d1fadf;
+    width: 95px;
+    text-align: center;
+}
+.lineheight{
+    width: 20px;
+    height: 1.5px;
+    margin-top: 10px;
+    background-color: #98a2b3;
+}
+
+.linestyle{
+    display: flex;
+    gap: 5px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.about-section {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+}
+
+.experience-date{
+    margin-top: 1em;
+    width: 90px;
+    height: 35px;
+    font-size: 12px;
+    border: 1px solid #000;
+    border-radius: 40px;
+    text-align: center;
+}
+
+.vertical{
+    display: none;
+    height: 1px ;
+    width: 340px;
+    background-color: #98a2b3;
+    padding-right: 50px;
+    margin-bottom: 40px;
+} 
+
+.experience-list{
+    margin: 0px 0px 20px 0px;
+}
+
+.connect{
+    font-size: 45px;
+    font-weight: 400;
+    padding: 30px 0px;
+}
+
+.product-note {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2em;
+    margin-bottom: 1.2em;
+}
+
+.arrow{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 600;
+    font-size: 15px;
+    gap: 10px;
+    border: 1px solid ;
+    /* margin: 10px; */
+    width: 150px;
+    height: 40px;
+    border-radius: 40px;
+}
+
+.arrow-image{
+    width: 20px;
+    height: 20px;
+    margin-top: 6px;
+}
+
+.social-list{
+    margin-top: 0px;
+
+}
+
+.socials{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+
+}
+
+.social{
+    background-color: #fff7f5;
+    margin: 0px 0px 30px 0px;
+}
+
+.footer{
+    text-align: center;
+}
+
+@media (min-width: 767px) {
+    html body{
+        margin-left: 30px;
+    }
+
+    .design-image{
+        width: 100%;
+        height: 100%;
+        padding-bottom: 40px;
+    }
+
+    .work-image{
+        width: 90%;
+        height: 110%;
+    }
+    .work{
+        padding-left: 20px;
+    }
+
+    .about-image{
+        width: 650px;
+        height: 650px;
+    }
+    
+    .connect{
+        font-size: 87px;
+    }
+}
+@media (min-width: 991px) {
+    .menu-icon{
+        display: none;
+    }
+
+    .header{
+        display: flex;
+        gap: 40px;
+        padding-right: 30px;
+    }
+
+    .ellipse{
+        width: 8px;
+        height: 8px;
+        border-radius: 5px;
+        background-color: #039855;
+        margin-top: 7px;
+    }
+    
+    .available-freelance{
+        display: flex;
+        padding:  0px 10px 0px 10px;
+        gap: 7px;
+        height: 25px;
+        border-radius: 12px;
+        background-color: #f2f4f7;
+    }
+
+    .product-uk{
+        display: flex;
+        width: 100%;
+        gap: 50px;
+    }
+
+    .product-note{
+        width: 70%;
+        justify-content: center;
+        margin-top: 7em;
+    }
+
+    .design-image{
+        width: 100%;
+        height: 100%;
+    }
+
+    .product-head{
+        font-size: 36px;
+    }
+
+    .work-image {
+        width: 100%;
+        height: 100%;
+    }
+
+    .work{
+        margin-bottom: 30px;
+    }
+
+    .work-section{
+        display: flex;
+        gap: 10px;
+        margin-bottom: 40px;
+    }
+
+    .about{
+        margin-top: 36px;
+    }
+
+    .works{
+        margin-left: 50px;
+    }
+
+    .about-image{
+        width: 450px;
+        height: 350px;
+    }
+
+    .about-service{
+        display: flex;
+        padding-left: 50px;
+        gap: 26px;
+    }
+
+    .about-section{
+        width: 500px;
+    }
+
+    .horizontal{
+        margin-left: 0px;
+        width: 1px;
+        /* margin-left: 20px; */
+        height: 730px;
+        background-color: #98a2b3;
+    }
+
+    .service{
+        margin-left: 0px;
+        width: 33%;
+    }
+
+    .services{
+        gap: 0px;
+        margin-left: 10px;
+        flex-direction: column;
+        margin-bottom: 0px;
+    }
+
+    .service-service{
+        margin: 0px;
+    }
+
+    .service-list{
+        margin-left: 0px;
+    }
+
+    .experience{
+        margin-left: 0px;
+        width: 45%;
+    }
+
+    .experience-list{
+        margin-bottom: 50px;
+        margin-left: 15px;
+    }
+
+    .about{
+        width: 12%;
+        margin-top: 8px;
+    }
+
+    .footer{
+        text-align: left;
+    }
+
+    .connect{
+        font-size: 140px;
+    }
+}
+@media (min-width: 1024px) {
+    .connect{
+        font-size: 9.5em;
+    }
+    
+}
+
